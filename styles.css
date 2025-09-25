@@ -1,0 +1,58 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #FFA600;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #D2B48C;
+}
+
+nav ul li a.active {
+    background: #987554;
+}
+
+main {
+    background: #FDF0AC;
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background: #FFA600;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
