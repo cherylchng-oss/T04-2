@@ -49,6 +49,12 @@ main {
     padding: 20px;
 }
 
+.responsive-svg-container {
+    margin: 0 auto; /* center */
+    width: 100%; /* fill parent width */
+    max-width: 1200px; /* cap max width */
+}
+
 footer {
     background: #FFA600;
     color: white;
